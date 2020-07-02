@@ -1,8 +1,8 @@
 def using_include(array, element)
   if array.include?(element) == true 
-    p "true"
+    p array.include?(element)
   else array.include?(element) == false 
-    p "false"
+    p array.include?(element)
   end
 end
 
